@@ -34,39 +34,20 @@ var config = {
 		{ 
 			header: "Sea Data",
                         module: "sea-temp",
-                        position: "bottom right"
+                        position: "bottom_center"
                 },
-
-		{
-			module: "alert",
-		},
-		{
-			module: "updatenotification",
-			position: "top_bar"
-		},
 		{
 			module: "clock",
-			position: "top_left"
-		},
-		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
-				]
-			}
+			position: "top_right"
 		},
 		{
 			module: "compliments",
-			position: "lower_third"
+			position: "top_bar"
 		},
 		{
+			header: "Current Weather Data",
 			module: "currentweather",
-			position: "top_right",
+			position: "bottom_left",
 			config: {
 				location: "Dublin",
 				locationID: "2964574",  //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
@@ -75,8 +56,7 @@ var config = {
 		},
 		{
 			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
+			position: "bottom_left",
 			config: {
 				location: "Dublin",
 				locationID: "2964574",  //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
@@ -85,7 +65,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_bar",
+			position: "top_left",
 			config: {
 				feeds: [
 					{
