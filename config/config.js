@@ -69,8 +69,8 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "RTE News",
+						url: "http://www.rte.ie/news/rss/news-headlines.xml"
 					}
 				],
 				showSourceTitle: true,
