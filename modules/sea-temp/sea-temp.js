@@ -19,6 +19,9 @@ Module.register("sea-temp",{
                 var results = JSON.parse(xmlhttp.responseText);
                 self.temperature= results.table.rows[0][15]
 		self.waveHeight= results.table.rows[0][9]
+		self.windDirection= results.table.rows[0][6]
+		self.windSpeed= results.table.rows[0][7]
+		self.meanWaveDirection= results.table.rows[0][11]
                 }
             };
             xmlhttp.open("GET", self.config.URL, true);
