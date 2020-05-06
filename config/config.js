@@ -79,8 +79,12 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		{
+			header: "iFrame",
+                        module: "iFrame",
+                        position: "bottom_bar"
+		}
 	]
-
 };
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
