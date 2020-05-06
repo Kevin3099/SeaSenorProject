@@ -13,8 +13,8 @@ Module.register("newsfeed",{
 	defaults: {
 		feeds: [
 			{
-				title: "New York Times",
-				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+				title: "RTE News",
+				url: "https://www.rte.ie/news/rss/news-headlines.xml",
 				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
