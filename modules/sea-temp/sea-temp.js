@@ -18,6 +18,7 @@ Module.register("sea-temp",{
                 if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                 var results = JSON.parse(xmlhttp.responseText);
                 self.temperature= results.table.rows[0][15]
+		self.waveHeight= results.table.rows[0][9]
                 }
             };
             xmlhttp.open("GET", self.config.URL, true);
@@ -29,13 +30,13 @@ Module.register("sea-temp",{
 	// Override dom generator.
 	getDom: function() {
         var wrapper = document.createElement("div");
-        if (!this.temperature) {
+        if (!this.temperature || !this.waveHeight) {
 			wrapper.innerHTML = "No data";
 			wrapper.className = "dimmed light small";
 			return wrapper;
 		}
 
-		wrapper.innerHTML = '<i class="fas fa-water"></i>'+this.temperature +'&deg;';
+		wrapper.innerHTML = '<i class="fas fa-water"></i>'+this.temperature +'&deg;'+'\n'+ this.waveHeight;
 		return wrapper;
 	}
 });
