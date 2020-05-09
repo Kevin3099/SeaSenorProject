@@ -79,16 +79,22 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		//{
+			//header: "Google Maps",
+                        //module: "iFrame",
+                        //position: "bottom_bar"
+		//},
 		{
-			header: "iFrame",
-                        module: "iFrame",
-                        position: "bottom_bar"
-			//config: {
-				//url: "https://www.google.ie/maps/place/Waterford/@52.2474997,-7.1481352,13z/data=!3m1!4b1!4m5!3m4!1s0x4842c69c63d9e44d:0xc5bb81888b67b9fb!8m2!3d52.2593197!4d-7.1100702",
-				//height:"200px",
-				//width:"50%"
-				//}
-		}
+            		module: 'MMM-google-route',
+            		position: 'bottom_right',
+            		config: {
+                		key: '<YOUR_KEY>',
+                		directionsRequest:{
+                		    origin: '<ROUTE START>',
+                		    destination: '<ROUTE FINISH>'
+                		}
+            		}
+        	}		
 	]
 };
 
