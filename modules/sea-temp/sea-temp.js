@@ -37,7 +37,7 @@ Module.register("sea-temp",{
 			return wrapper;
 		}
 
-		wrapper.innerHTML = '<i class="fas fa-water"></i>'+this.temperature +'&deg;'+'\n'+ this.waveHeight+"m "+this.windSpeed+"Mph ";
+		wrapper.innerHTML = 'Sea Temperature '+this.temperature +'&deg;'+'Wave Height '+ this.waveHeight+"m Wind Speed "+this.windSpeed+"Mph ";
 		return wrapper;
 	}
 });
