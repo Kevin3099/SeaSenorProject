@@ -1,3 +1,6 @@
-We created our github repository, and put MagicMirror into it. We made sure we both had access to and can make changes to all of it.
-
-We created a new config file so MagicMirror actually runs.
+Github Repo was created, MagicMirror was cloned into it.
+A new config file was created, letting magicmirror actually run.
+We fixed the date/time, so now it displays irish time.
+The news module give us irish news from an irish source instead of somewhere else.
+We have sea data displaying on MagicMirror, using a module we implemented called sea-temp.
+We tried to implement an iFrame module to display a map on MagicMirror, but couldnt get it to display google maps.
