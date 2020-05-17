@@ -19,7 +19,6 @@ Welcome to our version of the MagicMirror application to which we have edited to
 
 <h2> Things we need to fix: </h2>
 <p3>
-  Change date/time to display irish time.
   Get the MMM-google-route module to display google maps.
   Attempt to implement a module for displaying an image of the device.
   If time allows us, we wish to add a comment section for people to leave feedback and info.
