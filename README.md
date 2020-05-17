@@ -24,5 +24,8 @@ Welcome to our version of the MagicMirror application to which we have edited to
   Attempt to implement a module for displaying an image of the device.
   If time allows us, we wish to add a comment section for people to leave feedback and info.
 </p3>
-<H2>Problems we had</H2>
+<H2>Main Files</H2>
+<p4>
+  The most important files for looking at this project would be in the modules and config folders as these are the files we interacted with most. The config.js was changed around a lot over the course of the project to include all the different modules we researched on to change and the new modules we had to create. Going from 0 knowledge on the language to know understanding enough to be able to read and edit and create our own modules and applications. The other folder we mainly interacted with is the modules folder as in there we created a couple new modules like Sea-temp and edited a lot of the default modules like the weather.
+</p4>
 </body>
