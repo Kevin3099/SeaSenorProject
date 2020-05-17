@@ -1,10 +1,10 @@
-<title>Sea Sensor Project - Trysten Afrin & Kevin Power</title>
+<h1>Sea Sensor Project - Trysten Afrin & Kevin Power</h1>
 <body>
-<H2> Information </H2>
+<h2> Information </h2>
 <p>
 Welcome to our version of the MagicMirror application to which we have edited to be a sea and weather monitoring application that is updated in real time. The aim of this is to provide one main place for boat clubs, swimmers, divers and whoever else may use the sea one place to find all the information they need! The changes and additions we made to the default MagicMirror Module made by MichMich is detailed Below
 </p>
-<H2>What we did</H2>
+<h2>What we did</h2>
 <p2> 
   -Created the Github Repo and forked MagicMirror into it.
   -Created a new config file so that magic mirror would actually run.
@@ -17,7 +17,7 @@ Welcome to our version of the MagicMirror application to which we have edited to
   -Attempted to add a module called MMM-google-route to show a google map of the ocean.
 </p2>
 
-<H2> Things we need to fix: </H2>
+<h2> Things we need to fix: </h2>
 <p3>
   Change date/time to display irish time.
   Get the MMM-google-route module to display google maps.
