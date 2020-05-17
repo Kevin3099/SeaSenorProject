@@ -38,7 +38,10 @@ var config = {
                 },
 		{
 			module: "clock",
-			position: "top_right"
+			position: "top_right",
+			config: {
+				timezone: "Europe/Dublin"
+			}
 		},
 		{
 			module: "compliments",
