@@ -83,21 +83,15 @@ var config = {
 			}
 		},
 		{
-			header: "Device Location",
-                        module: "iFrame",
-                        position: "bottom_right"
-		},
-		//{
-            		//module: 'MMM-google-route',
-            		//position: 'bottom_right',
-            		//config: {
-                		//key: '',
-                		//directionsRequest:{
-                		    //origin: '',
-                		   // destination: ''
-                		//}
-            		//}
-        	//}		
+			module: 'MMM-iFrame',
+			position: 'bottom_right',
+			config: {
+				url: ["https://goo.gl/maps/hTraHffgHAgMP7Rh7"], 
+				width: "400", // width of iframe
+				height: "400", // height of iframe
+				frameWidth: "400" // width of embedded iframe, height is beeing calculated by aspect ratio of iframe
+			}
+		}		
 	]
 };
 

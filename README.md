@@ -16,6 +16,7 @@ Welcome to our version of the MagicMirror application to which we have edited to
   -Attempted to implement an iFrame to display an image.
   -Attempted to add a module called MMM-google-route to show a google map of the ocean.
   -We found that the mmm-google-route module was much more complex and harder to display the map on than our original iFrame module, so we switched back to iFrame.
+  -After more consideration we found a module one up from iFrame called MMM-iFrane, which is the module we went with in the end, although our google maps still wouldnt display.
 </p2>
 <H2>Main Files</H2>
 <p3>
