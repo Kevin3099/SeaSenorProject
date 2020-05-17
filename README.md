@@ -17,10 +17,14 @@ Welcome to our version of the MagicMirror application to which we have edited to
   -Attempted to add a module called MMM-google-route to show a google map of the ocean.
 </p>
 
-<H3> Things we need to fix: </H3>
+<H2> Things we need to fix: </H2>
 <p>
   Change date/time to display irish time.
   Get the MMM-google-route module to display google maps.
   Attempt to implement a module for displaying an image of the device.
   If time allows us, we wish to add a comment section for people to leave feedback and info.
+</p>
+<H2>Problems we had</H2>
+<p>
+  test test test
 </p>
