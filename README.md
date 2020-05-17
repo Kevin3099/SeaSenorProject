@@ -22,4 +22,9 @@ Welcome to our version of the MagicMirror application to which we have edited to
 <p3>
   The most important files for looking at this project would be in the modules and config folders as these are the files we interacted with most. The config.js was changed around a lot over the course of the project to include all the different modules we researched on to change and the new modules we had to create. Going from 0 knowledge on the language to know understanding enough to be able to read and edit and create our own modules and applications. The other folder we mainly interacted with is the modules folder as in there we created a couple new modules like Sea-temp and edited a lot of the default modules like the weather.
 </p3>
+
+<H2> Video Note </H2>
+<p3>
+For the video presentation of the document we tried multiple times to create a video  with both us speaking and presenting the module however we were not able to figure it out.  We couldn't meet up to create one due to social distancing so we decided to plan the video out together and record one individually, the video attached in the upload is the one Trystan created.
+</p3>
 </body>
