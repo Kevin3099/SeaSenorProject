@@ -82,22 +82,22 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
-		//{
-			//header: "Google Maps",
-                        //module: "iFrame",
-                        //position: "bottom_bar"
-		//},
 		{
-            		module: 'MMM-google-route',
-            		position: 'bottom_right',
-            		config: {
-                		key: '<YOUR_KEY>',
-                		directionsRequest:{
-                		    origin: '<ROUTE START>',
-                		    destination: '<ROUTE FINISH>'
-                		}
-            		}
-        	}		
+			header: "Device Location",
+                        module: "iFrame",
+                        position: "bottom_right"
+		},
+		//{
+            		//module: 'MMM-google-route',
+            		//position: 'bottom_right',
+            		//config: {
+                		//key: '',
+                		//directionsRequest:{
+                		    //origin: '',
+                		   // destination: ''
+                		//}
+            		//}
+        	//}		
 	]
 };
 
